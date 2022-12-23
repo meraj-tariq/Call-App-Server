@@ -1,0 +1,53 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "audio-loader": "^1.0.3",
+    "audio-play": "^2.3.1",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "child_process": "^1.0.2",
+    "codec": "^0.0.3",
+    "cors": "^2.8.5",
+    "decompress": "^4.2.1",
+    "decompress-tar": "^4.1.1",
+    "decompress-zip": "^0.3.3",
+    "express": "^4.18.1",
+    "fast-xml-parser": "^4.0.12",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^10.1.0",
+    "glob": "^8.0.3",
+    "https": "^1.0.0",
+    "jszip": "^3.10.1",
+    "mssql": "^8.1.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "node-stream-zip": "^1.15.0",
+    "node-wav-player": "^0.2.0",
+    "path": "^0.12.7",
+    "read-chunk": "3.2.0",
+    "replace-in-file": "^6.3.5",
+    "sequelize": "^6.21.3",
+    "slash": "^5.0.0",
+    "speaker": "^0.5.4",
+    "stream": "^0.0.2",
+    "tar": "^6.1.11",
+    "tar-fs": "^2.1.1",
+    "tar-stream": "^2.2.0",
+    "wav-file-info": "^0.0.10",
+    "xml2js": "^0.4.23",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
